@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin: 30px;
+}
+.first-sect {
+  display: flex;
+  gap: 100px;
+}
+i {
+  cursor: pointer;
+}
+.two-data {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.yes {
+  margin: 10px 0;
+  max-width: 400px;
+}
+
+h2 {
+  margin: 20px 0;
+}
+h1 {
+  margin: 20px 0;
+}
+.forstyle {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+.toggle {
+  display: none;
+}
+
+@media (max-width: 914px) {
+  .first-sect {
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+  }
+}
